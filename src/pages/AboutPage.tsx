@@ -52,7 +52,21 @@ const AboutPage = () => {
       </section>
 
       {/* About Us Content */}
-      <section className="py-20 bg-gray-900/30">
+      <section className="py-20 bg-gray-900/30 relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-black px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
@@ -94,7 +108,21 @@ const AboutPage = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-gray-900/30">
+      <section className="py-20 bg-gray-900/30 relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-gray-900/30 px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 hover:border-green-400/50 transition-all duration-300">
@@ -121,7 +149,21 @@ const AboutPage = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-900/30">
+      <section className="py-20 bg-gray-900/30 relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-gray-900/30 px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -163,7 +205,21 @@ const AboutPage = () => {
       </section>
 
       {/* Achievements */}
-      <section id="achievements" className="py-20 bg-black">
+      <section id="achievements" className="py-20 bg-black relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-gray-900/30 px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

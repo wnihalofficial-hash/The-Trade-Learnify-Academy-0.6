@@ -112,6 +112,18 @@ const FAQSection = () => {
         </div>
       </div>
     </section>
+
+    {/* Section Separator */}
+    <div className="relative">
+      <div className="absolute inset-0 flex items-center">
+        <div className="w-full border-t border-green-500/20"></div>
+      </div>
+      <div className="relative flex justify-center">
+        <div className="bg-gray-900 px-6">
+          <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+        </div>
+      </div>
+    </div>
   );
 };
 

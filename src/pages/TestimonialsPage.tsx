@@ -110,7 +110,21 @@ const TestimonialsPage = () => {
       </section>
 
       {/* Video Testimonials */}
-      <section className="py-20 bg-gray-900/30">
+      <section className="py-20 bg-gray-900/30 relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-black px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
@@ -150,7 +164,21 @@ const TestimonialsPage = () => {
       </section>
 
       {/* Google Reviews */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-gray-900/30 px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
@@ -215,7 +243,21 @@ const TestimonialsPage = () => {
       </section>
 
       {/* Student Earnings Showcase */}
-      <section className="py-20 bg-gray-900/30">
+      <section className="py-20 bg-gray-900/30 relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-black px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">
@@ -262,7 +304,21 @@ const TestimonialsPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black relative">
+        {/* Section Separator */}
+        <div className="absolute top-0 left-0 right-0">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-green-500/20"></div>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="bg-gray-900/30 px-6">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Start Your{" "}
