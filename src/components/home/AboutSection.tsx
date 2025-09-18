@@ -62,7 +62,7 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 
               {/* Overlay Content */}
-              <div className="absolute bottom-6 left-6 right-6">
+              <div className="absolute bottom-8 left-8 right-8">
                 <div className="bg-black/80 backdrop-blur-sm rounded-lg p-4">
                   <h3 className="text-white font-bold text-lg mb-2">
                     Professional Trading Education
@@ -75,14 +75,14 @@ const AboutSection = () => {
             </div>
 
             {/* Floating Stats */}
-            <div className="absolute -top-4 -right-4 bg-green-500 text-black px-4 py-2 rounded-xl font-bold shadow-lg animate-pulse">
+            <div className="absolute -top-6 -right-6 bg-green-500 text-black px-4 py-2 rounded-xl font-bold shadow-lg animate-pulse">
               <div className="text-center">
                 <div className="text-xl font-bold">1000+</div>
                 <div className="text-xs">Students</div>
               </div>
             </div>
 
-            <div className="absolute -bottom-4 -left-4 bg-gray-900/90 backdrop-blur-sm text-white px-4 py-2 rounded-xl border border-green-500/20 shadow-lg">
+            <div className="absolute -bottom-6 -left-6 bg-gray-900/90 backdrop-blur-sm text-white px-4 py-2 rounded-xl border border-green-500/20 shadow-lg">
               <div className="text-center">
                 <div className="text-xl font-bold text-green-400">6 Months</div>
                 <div className="text-xs">Program</div>
